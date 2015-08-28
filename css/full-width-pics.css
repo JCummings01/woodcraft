@@ -25,6 +25,9 @@ body > nav > div > div.navbar-header > a,
 p.lead.section-lead {
     clear: both;
 }*/
+.col-md-4.portfolio-item {
+    padding: 0px 3px 0px 3px;
+}
 
 .item,
 .item active {
