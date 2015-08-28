@@ -49,13 +49,15 @@ p.lead.section-lead {
 }
 
 .image-bg-fluid-height {
-	background: url('../public/b1.jpg') no-repeat center center scroll;
+	/*background: url('../public/b1.jpg') no-repeat center center scroll;*/
+    background: url('http://placehold.it/1440x450') no-repeat center center scroll;
     /*padding: 100px 0;*/
     height: 450px;
 }
 
 .image-bg-fixed-height {
-	background: url('../public/g1.jpg') no-repeat center center scroll;
+	/*background: url('../public/g1.jpg') no-repeat center center scroll;*/
+    background: url('http://placehold.it/1440x450') no-repeat center center scroll;
     height: 450px;
 }
 
