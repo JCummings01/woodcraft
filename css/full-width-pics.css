@@ -9,6 +9,33 @@ body {
     background-color: #222;
 }
 
+body > nav > div > div.navbar-header > a,
+#bs-example-navbar-collapse-1 > ul > li:nth-child(1) > a,
+#bs-example-navbar-collapse-1 > ul > li:nth-child(2) > a,
+#bs-example-navbar-collapse-1 > ul > li:nth-child(3) > a {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*.leaf {
+    position: relative;
+}
+.img-leaf {
+    float: left;
+}
+p.lead.section-lead {
+    clear: both;
+}*/
+
+.item,
+.item active {
+    height: 450px;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .image-bg-fluid-height,
 .image-bg-fixed-height {
     text-align: center;
@@ -40,6 +67,7 @@ section {
 
 .section-heading {
     /*margin: 30px 0;*/
+    /*vertical-align: bottom;*/
     margin: 10px 0;
     font-size: 4em;
     font-family: 'Pirata One', cursive;
